@@ -1,0 +1,294 @@
+
+@media (max-device-width: 1280px) {
+  .mywork-sect {
+    height: 300vh;
+    .container {
+      width: 700px;
+      h2 {
+        font-size: 30px;
+      }
+      .projects-list {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media (max-device-width: 1120px) {
+  
+    .container {
+      width: 800px;
+    }
+
+    .about-me-section {
+      .container {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .image-container {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+
+        .info {
+          margin-left: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+
+    .certif-section {
+      height: 140vh;
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .js-cert {
+          display: flex;
+          flex-direction: column;
+
+          .img-container {
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+          .skills {
+            width: 600px;
+          }
+        }
+
+        .html-css-cert {
+          display: flex;
+          flex-direction: column;
+
+          .img-container {
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+          .skills {
+            width: 600px;
+          }
+        }
+      }
+    }
+
+    @media (max-device-width: 840px) {
+      .container {
+        width: 600px;
+      }
+    }
+
+    @media (max-device-width:770px) {
+      .mywork-sect {
+        height: 240vh;
+        .container {
+          width: 500px;
+        }
+      }
+      @media(max-device-height: 980px) {
+        .mywork-sect {
+          height: 370vh;
+        }
+        .certif-section {
+          height: 220vh;
+        }
+        .about-me-section {
+          height: 140vh;
+        }
+      }
+    }
+
+    @media (max-device-width:650px) {
+      .container {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .certif-section {
+        height: 170vh;
+        .container {
+          .js-cert {
+            .img-container {
+              img {
+                width: 280px;
+                height: 280px;
+              }
+            }
+            .skills {
+              width: 280px;
+            }
+          }
+
+          .html-css-cert {
+            .img-container {
+              img {
+                width: 280px;
+                height: 280px;
+              }
+            }
+            .skills {
+              width: 280px;
+            }
+          }
+        }
+      }
+
+      .mywork-sect {
+        .container {
+          display: flex;
+          align-items: center;
+          .projects-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .a-project {
+              width: 300px;
+              padding: 40px 40px 20px 40px;
+              img {
+                width: 150px;
+                height: 150px;
+              }
+              .project-info {
+                .proj-links {
+                  display: flex;
+                  flex-direction: column;
+                  a {
+                    margin-right: 0;
+                    font-size: 14px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    @media (max-device-width: 560px) {
+      .about-me-section {
+        height: 90vh;
+        .container {
+          .image-container {
+            img {
+              width: 270px;
+              height: 200px;
+            }
+          }
+          .info {
+            width: 280px;
+          }
+        }
+      }
+
+      #nav-bar {
+        .list {
+          display: none;
+        }
+      }
+    }
+
+    @media (max-device-width: 460px) {
+      .about-me-section {
+        height: 120vh;
+      }
+      .certif-section {
+        height: 220vh;
+      }
+      .mywork-sect {
+        height: 285vh;
+      }
+      .container {
+        width: 320px;
+      }
+    }
+    @media (max-device-width:420px) {
+      .certif-section {
+        height: 240vh;
+      }
+      .mywork-sect {
+        height: 320vh;
+      }
+      .contact-sect {
+        height: 40vh;
+      }
+    }
+    @media (max-device-width: 390px) {
+      .welcome-section {
+        height: 110vh;
+      }
+      .about-me-section {
+        height: 130vh;
+      }
+      .container {
+        width: 260px;
+      }
+      .certif-section {
+        height: 265vh;
+      }
+      .mywork-sect {
+        height: 340vh;
+      }
+
+      .contact-sect {
+        .container {
+          .list-contacts {
+            .contact-item {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media (max-device-height: 1030px) {
+//   .mywork-sect {
+//     height: 250vh;
+//   }
+//   @media (max-device-height: 850px) {
+//     .about-me-section {
+//       height: 115vh;
+//     }
+//     .certif-section {
+//       height: 225vh;
+//     }
+//   }
+
+//   @media (max-device-height: 800px) {
+//     .mywork-sect {
+//       height: 290vh;
+//     }
+//   }
+
+//   @media(max-device-height: 780px) {
+//     .certif-section{
+//       height: 240vh;
+//     }
+//     .mywork-sect {
+//       height: 310vh;
+//     }
+//   }
+
+//   @media(max-device-height:725px) {
+//     .about-me-section{
+//       height: 130vh;
+//     }
+//     .certif-section {
+//       height: 260vh;
+//     }
+//     .mywork-sect {
+//       height: 340vh;
+//     }
+//     .contact-sect {
+//       height: 50vh;
+//     }
+//   }
+// }

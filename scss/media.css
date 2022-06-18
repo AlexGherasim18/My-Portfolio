@@ -1,0 +1,273 @@
+@media (max-device-width: 1280px) {
+  .mywork-sect {
+    height: 300vh;
+  }
+  .mywork-sect .container {
+    width: 700px;
+  }
+  .mywork-sect .container h2 {
+    font-size: 30px;
+  }
+  .mywork-sect .container .projects-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) {
+  .container {
+    width: 800px;
+  }
+  .about-me-section .container {
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-me-section .container .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .about-me-section .container .info {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .certif-section {
+    height: 140vh;
+  }
+  .certif-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .certif-section .container .js-cert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .certif-section .container .js-cert .img-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .certif-section .container .js-cert .skills {
+    width: 600px;
+  }
+  .certif-section .container .html-css-cert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .certif-section .container .html-css-cert .img-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .certif-section .container .html-css-cert .skills {
+    width: 600px;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 840px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 770px) {
+  .mywork-sect {
+    height: 240vh;
+  }
+  .mywork-sect .container {
+    width: 500px;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 770px) and (max-device-height: 980px) {
+  .mywork-sect {
+    height: 370vh;
+  }
+  .certif-section {
+    height: 220vh;
+  }
+  .about-me-section {
+    height: 140vh;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 650px) {
+  .container {
+    max-width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .certif-section {
+    height: 170vh;
+  }
+  .certif-section .container .js-cert .img-container img {
+    width: 280px;
+    height: 280px;
+  }
+  .certif-section .container .js-cert .skills {
+    width: 280px;
+  }
+  .certif-section .container .html-css-cert .img-container img {
+    width: 280px;
+    height: 280px;
+  }
+  .certif-section .container .html-css-cert .skills {
+    width: 280px;
+  }
+  .mywork-sect .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mywork-sect .container .projects-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mywork-sect .container .projects-list .a-project {
+    width: 300px;
+    padding: 40px 40px 20px 40px;
+  }
+  .mywork-sect .container .projects-list .a-project img {
+    width: 150px;
+    height: 150px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info .proj-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info .proj-links a {
+    margin-right: 0;
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 560px) {
+  .about-me-section {
+    height: 90vh;
+  }
+  .about-me-section .container .image-container img {
+    width: 270px;
+    height: 200px;
+  }
+  .about-me-section .container .info {
+    width: 280px;
+  }
+  #nav-bar .list {
+    display: none;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 460px) {
+  .about-me-section {
+    height: 120vh;
+  }
+  .certif-section {
+    height: 220vh;
+  }
+  .mywork-sect {
+    height: 285vh;
+  }
+  .container {
+    width: 320px;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 420px) {
+  .certif-section {
+    height: 240vh;
+  }
+  .mywork-sect {
+    height: 320vh;
+  }
+  .contact-sect {
+    height: 40vh;
+  }
+}
+
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 390px) {
+  .welcome-section {
+    height: 110vh;
+  }
+  .about-me-section {
+    height: 130vh;
+  }
+  .container {
+    width: 260px;
+  }
+  .certif-section {
+    height: 265vh;
+  }
+  .mywork-sect {
+    height: 340vh;
+  }
+  .contact-sect .container .list-contacts .contact-item {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
