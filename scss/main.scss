@@ -49,6 +49,7 @@ ul {
   width: 100%;
   top: 0;
   height: 32px;
+  z-index: 1;
   background-color: $dark-color;
   color: $white-color;
   display: flex;

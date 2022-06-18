@@ -46,6 +46,7 @@ ul {
   width: 100%;
   top: 0;
   height: 32px;
+  z-index: 1;
   background-color: #28282B;
   color: #FDFBF9;
   display: -webkit-box;
