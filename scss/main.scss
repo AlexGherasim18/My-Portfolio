@@ -48,7 +48,7 @@ ul {
   position: fixed;
   width: 100%;
   top: 0;
-  height: 50px;
+  height: 30px;
   background-color: $dark-color;
   color: $white-color;
   display: flex;
@@ -256,7 +256,7 @@ ul {
   background: $white-color;
   display: flex;
   justify-content: center;
-  height: 160vh;
+  height: 180vh;
 
   .container {
     width: 1200px;
@@ -265,9 +265,9 @@ ul {
     // align-items: center;
     h2 {
       color: $orange-color;
-      font-size: 40px;
-      padding-top: 30px;
-      margin-bottom: 30px;
+      font-size: 35px;
+      padding-top: 28px;
+      margin-bottom: 28px;
     }
 
     .projects-list {
