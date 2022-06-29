@@ -238,7 +238,7 @@
   }
 }
 
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 420px) {
+@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 458px) {
   .certif-section {
     height: 240vh;
   }
@@ -268,6 +268,33 @@
   }
   .contact-sect .container .list-contacts .contact-item {
     font-size: 14px;
+  }
+}
+
+@media (max-device-height: 710px) {
+  .certif-section {
+    height: 260vh;
+  }
+  .mywork-sect {
+    height: 340vh;
+  }
+  .contact-sect {
+    height: 60vh;
+  }
+}
+
+@media (max-device-height: 710px) and (max-device-height: 670px) {
+  .about-me-section {
+    height: 140vh;
+  }
+  .certif-section {
+    height: 280vh;
+  }
+  .mywork-sect {
+    height: 350vh;
+  }
+  .contact-sect {
+    height: 40vh;
   }
 }
 /*# sourceMappingURL=media.css.map */
