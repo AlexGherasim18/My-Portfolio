@@ -1,60 +1,44 @@
-@media (max-device-width: 1280px) {
-  .mywork-sect {
-    height: 300vh;
-  }
-  .mywork-sect .container {
-    width: 700px;
-  }
-  .mywork-sect .container h2 {
-    font-size: 30px;
-  }
-  .mywork-sect .container .projects-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+@media (max-device-width: 1210px) {
+  .about-me-section .container, .certif-section .container, .mywork-sect .container, .contact-sect .container {
+    width: 1100px;
   }
 }
 
-@media (max-device-width: 1280px) and (max-device-width: 1120px) {
-  .container {
+@media (max-device-width: 1210px) and (max-device-width: 1120px) {
+  .welcome-section .container {
     width: 800px;
   }
-  .about-me-section .container {
-    margin-top: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .about-me-section .container .image-container {
-    margin-right: 0;
-    margin-bottom: 20px;
+  .about-me-section .container, .certif-section .container, .mywork-sect .container, .contact-sect .container {
+    width: 900px;
   }
   .about-me-section .container .info {
-    margin-left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-left: 60px;
   }
-  .certif-section {
-    height: 140vh;
+  .about-me-section .container .info p {
+    font-size: 18px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 930px) {
+  .welcome-section .container {
+    width: 600px;
+    font-size: 28px;
+  }
+  .about-me-section .container, .certif-section .container, .mywork-sect .container, .contact-sect .container {
+    width: 760px;
+  }
+  .about-me-section .container img {
+    width: 400px;
+    height: 320px;
+  }
+  .about-me-section .container .info {
+    margin-left: 40px;
+  }
+  .about-me-section .container .info p {
+    font-size: 16px;
+  }
+  .about-me-section .container .info a {
+    font-size: 16px;
   }
   .certif-section .container {
     display: -webkit-box;
@@ -100,38 +84,19 @@
   .certif-section .container .html-css-cert .skills {
     width: 600px;
   }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 840px) {
-  .container {
-    width: 600px;
+  .mywork-sect .container .projects-list .a-project img {
+    width: 300px;
+  }
+  .contact-sect .container h2 {
+    font-size: 20px;
+  }
+  .contact-sect .container .list-contacts .contact-item {
+    font-size: 16px;
   }
 }
 
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 770px) {
-  .mywork-sect {
-    height: 240vh;
-  }
-  .mywork-sect .container {
-    width: 500px;
-  }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 770px) and (max-device-height: 980px) {
-  .mywork-sect {
-    height: 370vh;
-  }
-  .certif-section {
-    height: 220vh;
-  }
-  .about-me-section {
-    height: 140vh;
-  }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 650px) {
-  .container {
-    max-width: 400px;
+@media (max-device-width: 1210px) and (max-device-width: 800px) {
+  .about-me-section .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -139,28 +104,31 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .certif-section {
-    height: 170vh;
+  .about-me-section .container .image-container {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
-  .certif-section .container .js-cert .img-container img {
-    width: 280px;
-    height: 280px;
-  }
-  .certif-section .container .js-cert .skills {
-    width: 280px;
-  }
-  .certif-section .container .html-css-cert .img-container img {
-    width: 280px;
-    height: 280px;
-  }
-  .certif-section .container .html-css-cert .skills {
-    width: 280px;
-  }
-  .mywork-sect .container {
+  .about-me-section .container .info {
+    margin-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-me-section .container .info h3 {
+    font-size: 28px;
+  }
+  .mywork-sect .container {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -173,17 +141,165 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 500px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 765px) {
+  .contact-sect .container {
+    width: 600px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 640px) {
+  #nav-bar .list .list-item {
+    font-size: 14px;
+    padding: 4px 16px;
+  }
+  .certif-section .container .js-cert .skills {
+    font-size: 14px;
+    width: 420px;
+  }
+  .certif-section .container .html-css-cert .skills {
+    font-size: 14px;
+    width: 420px;
+  }
+  .mywork-sect .container h2 {
+    font-size: 28px;
+  }
+  .mywork-sect .container .projects-list {
+    width: 420px;
   }
   .mywork-sect .container .projects-list .a-project {
+    padding: 20px 4px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info h4 {
+    font-size: 16px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info p {
+    width: 65%;
+  }
+  .contact-sect .container h2 {
+    font-size: 16px;
+  }
+  .contact-sect .container .list-contacts .contact-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 610px) {
+  .welcome-section .container {
+    width: 400px;
+  }
+  .about-me-section .container .image-container img {
+    width: 340px;
+    height: 260px;
+  }
+  .about-me-section .container .info {
+    width: 360px;
+  }
+  .about-me-section .container .info h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .about-me-section .container .info p {
+    font-size: 14px;
+  }
+  .certif-section .container .js-cert .img-container img, .certif-section .container .html-css-cert .img-container img {
+    width: 320px;
+    height: 260px;
+  }
+  .contact-sect .container {
+    width: 460px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 535px) {
+  #nav-bar .list .list-item {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 470px) {
+  #nav-bar .logo {
+    font-size: 20px;
+    padding: 4px 10px 0 10px;
+  }
+  #nav-bar .list .list-item {
+    font-size: 10px;
+  }
+  .certif-section .container .js-cert .skills {
     width: 300px;
-    padding: 40px 40px 20px 40px;
+  }
+  .certif-section .container .html-css-cert .skills {
+    width: 300px;
+  }
+  .mywork-sect .container .projects-list {
+    width: 300px;
   }
   .mywork-sect .container .projects-list .a-project img {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 160px;
+  }
+  .contact-sect .container {
+    width: 340px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 420px) {
+  .welcome-section .container {
+    width: 260px;
+  }
+  .about-me-section .container .image-container img {
+    width: 240px;
+    height: 180px;
+  }
+  .about-me-section .container .info {
+    width: 300px;
+  }
+  .certif-section .container h2 {
+    font-size: 24px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info .proj-links a {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 360px) {
+  #nav-bar {
+    display: none;
+  }
+  .about-me-section .container .info {
+    width: 250px;
+  }
+  .about-me-section .container .info p {
+    font-size: 13px;
+  }
+  .certif-section .container .js-cert .img-container img, .certif-section .container .html-css-cert .img-container img {
+    width: 240px;
+    height: 180px;
+  }
+  .certif-section .container .js-cert .skills, .certif-section .container .html-css-cert .skills {
+    width: 250px;
+    font-size: 12px;
+  }
+  .mywork-sect .container h2 {
+    font-size: 20px;
+  }
+  .mywork-sect .container .projects-list {
+    width: 250px;
+  }
+  .mywork-sect .container .projects-list .a-project img {
+    width: 180px;
+    height: 160px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info h4 {
+    font-size: 14px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info p {
+    font-size: 12px;
   }
   .mywork-sect .container .projects-list .a-project .project-info .proj-links {
     display: -webkit-box;
@@ -193,108 +309,115 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .mywork-sect .container .projects-list .a-project .project-info .proj-links a {
     margin-right: 0;
+    margin-top: 5px;
+  }
+  .contact-sect .container {
+    width: 280px;
+  }
+  .contact-sect .container .list-contacts .contact-item {
+    font-size: 12px;
+  }
+  .contact-sect .container .list-contacts .contact-item i {
+    font-size: 16px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 300px) {
+  .welcome-section .container {
+    font-size: 18px;
+  }
+  .welcome-section .w-socials {
+    font-size: 30px;
+  }
+}
+
+@media (max-device-width: 1210px) and (max-device-width: 275px) {
+  .welcome-section .container {
+    width: 170px;
+    font-size: 12px;
+  }
+  .about-me-section .container {
+    width: 180px;
+  }
+  .about-me-section .container .image-container img {
+    width: 160px;
+    height: 130px;
+  }
+  .about-me-section .container .info {
+    width: 160px;
+  }
+  .about-me-section .container .info h3 {
     font-size: 14px;
+  }
+  .about-me-section .container .info p {
+    width: 140px;
+    font-size: 10px;
+  }
+  .about-me-section .container .info a {
+    font-size: 10px;
+  }
+  .certif-section .container h2 {
+    font-size: 18px;
+  }
+  .certif-section .container .js-cert .img-container img, .certif-section .container .html-css-cert .img-container img {
+    width: 180px;
+    height: 130px;
+  }
+  .certif-section .container .js-cert .skills, .certif-section .container .html-css-cert .skills {
+    width: 180px;
+    font-size: 10px;
+  }
+  .mywork-sect .container h2 {
+    font-size: 18px;
+  }
+  .mywork-sect .container .projects-list {
+    width: 180px;
+  }
+  .mywork-sect .container .projects-list .a-project img {
+    display: none;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info h4 {
+    font-size: 12px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info p {
+    font-size: 10px;
+  }
+  .mywork-sect .container .projects-list .a-project .project-info .proj-links a {
+    font-size: 10px;
+  }
+  .contact-sect .container {
+    margin-left: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 560px) {
-  .about-me-section {
-    height: 90vh;
-  }
-  .about-me-section .container .image-container img {
-    width: 270px;
-    height: 200px;
-  }
-  .about-me-section .container .info {
-    width: 280px;
-  }
-  #nav-bar .list {
-    display: none;
-  }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 460px) {
-  .about-me-section {
-    height: 120vh;
-  }
-  .certif-section {
-    height: 220vh;
-  }
-  .mywork-sect {
-    height: 285vh;
-  }
-  .container {
-    width: 320px;
-  }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 458px) {
-  .certif-section {
-    height: 240vh;
-  }
-  .mywork-sect {
-    height: 320vh;
-  }
-  .contact-sect {
-    height: 40vh;
-  }
-}
-
-@media (max-device-width: 1280px) and (max-device-width: 1120px) and (max-device-width: 390px) {
-  .welcome-section {
-    height: 110vh;
-  }
-  .about-me-section {
-    height: 130vh;
-  }
-  .container {
-    width: 260px;
-  }
-  .certif-section {
-    height: 265vh;
-  }
-  .mywork-sect {
-    height: 340vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .contact-sect .container .list-contacts .contact-item {
-    font-size: 14px;
+    font-size: 8px;
+  }
+  .contact-sect .container .list-contacts .contact-item i {
+    margin-right: 5px;
   }
 }
 
-@media (max-device-height: 710px) {
-  .certif-section {
-    height: 260vh;
-  }
-  .mywork-sect {
-    height: 340vh;
-  }
-  .contact-sect {
-    height: 60vh;
-  }
-}
-
-@media (max-device-height: 710px) and (max-device-height: 670px) {
-  .about-me-section {
-    height: 140vh;
-  }
-  .certif-section {
-    height: 280vh;
-  }
-  .mywork-sect {
-    height: 350vh;
-  }
-  .contact-sect {
-    height: 40vh;
+@media (max-device-width: 1210px) and (max-device-height: 380px) {
+  .welcome-section {
+    height: auto;
   }
 }
 /*# sourceMappingURL=media.css.map */

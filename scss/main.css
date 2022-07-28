@@ -45,7 +45,7 @@ ul {
   position: fixed;
   width: 100%;
   top: 0;
-  height: 32px;
+  height: 28px;
   z-index: 1;
   background-color: #28282B;
   color: #FDFBF9;
@@ -69,7 +69,7 @@ ul {
   cursor: pointer;
   text-decoration: none;
   color: #ED944D;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   padding: 0 30px 0 30px;
   border-right: 1px solid #989898;
@@ -100,7 +100,7 @@ ul {
 #nav-bar .list .list-item {
   cursor: pointer;
   font-size: 16px;
-  padding: 8px 20px;
+  padding: 4px 20px;
 }
 
 #nav-bar .list .list-item a {
@@ -163,7 +163,6 @@ ul {
 }
 
 .about-me-section {
-  height: 90vh;
   background: #FDFBF9;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,7 +173,8 @@ ul {
 }
 
 .about-me-section .container {
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +224,6 @@ ul {
 
 .certif-section {
   background-color: #28282B;
-  height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,7 +261,7 @@ ul {
 }
 
 .certif-section .container .js-cert .skills {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   background: #FDFBF9;
   padding: 20px 40px;
@@ -296,7 +295,7 @@ ul {
 }
 
 .certif-section .container .html-css-cert .skills {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   background: #FDFBF9;
   padding: 20px 40px;
@@ -318,7 +317,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 180vh;
+  padding-bottom: 28px;
 }
 
 .mywork-sect .container {
@@ -349,7 +348,7 @@ ul {
 
 .mywork-sect .container .projects-list .a-project {
   background: #cac8c7;
-  padding: 40px 40px 20px 40px;
+  padding: 20px 10px;
   border-radius: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,6 +389,8 @@ ul {
 .mywork-sect .container .projects-list .a-project .project-info p {
   color: #28282B;
   font-weight: bolder;
+  font-size: 14px;
+  width: 75%;
 }
 
 .mywork-sect .container .projects-list .a-project .project-info .proj-links {
@@ -410,7 +411,7 @@ ul {
   color: #FDFBF9;
   margin-right: 20px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
   background: #ED944D;
 }
 
@@ -419,7 +420,6 @@ ul {
 }
 
 .contact-sect {
-  height: 35vh;
   background-color: #28282B;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -435,7 +435,7 @@ ul {
 }
 
 .contact-sect .container h2 {
-  font-size: 32px;
+  font-size: 26px;
   margin-bottom: 20px;
 }
 
@@ -453,7 +453,7 @@ ul {
 }
 
 .contact-sect .container .list-contacts .contact-item {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #FDFBF9;
 }
@@ -465,7 +465,7 @@ ul {
 .contact-sect .container .list-contacts .contact-item i {
   margin-right: 20px;
   color: #ED944D;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .animated-image {

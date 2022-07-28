@@ -48,7 +48,7 @@ ul {
   position: fixed;
   width: 100%;
   top: 0;
-  height: 32px;
+  height: 28px;
   z-index: 1;
   background-color: $dark-color;
   color: $white-color;
@@ -62,7 +62,7 @@ ul {
     cursor: pointer;
     text-decoration: none;
     color: $orange-color;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     padding: 0 30px 0 30px;
     border-right: 1px solid $grey-color;
@@ -84,7 +84,7 @@ ul {
     .list-item {
       cursor: pointer;
       font-size: 16px;
-      padding: 8px 20px;
+      padding: 4px 20px;
       a {
         text-decoration: none;
         color: $white-color;
@@ -137,13 +137,13 @@ ul {
 }
 
 .about-me-section {
-  height: 90vh;
   background: $white-color;
   display: flex;
   justify-content: center;
 
   .container {
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     .image-container {
       margin-right: 35px;
@@ -188,7 +188,6 @@ ul {
 
 .certif-section {
   background-color: $dark-color;
-  height: 120vh;
   display: flex;
   justify-content: center;
 
@@ -211,7 +210,7 @@ ul {
       }
 
       .skills {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         background: $white-color;
         padding: 20px 40px;
@@ -236,7 +235,7 @@ ul {
       }
 
       .skills {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         background: $white-color;
         padding: 20px 40px;
@@ -257,7 +256,7 @@ ul {
   background: $white-color;
   display: flex;
   justify-content: center;
-  height: 180vh;
+  padding-bottom: 28px;
 
   .container {
     width: 1200px;
@@ -277,7 +276,7 @@ ul {
       grid-gap: 2.6rem;
       .a-project {
         background: #cac8c7;
-        padding: 40px 40px 20px 40px;
+        padding: 20px 10px;
         border-radius: 40px;
         display: flex;
         flex-direction: column;
@@ -299,6 +298,8 @@ ul {
           p {
             color: $dark-color;
             font-weight: bolder;
+            font-size: 14px;
+            width: 75%;
           }
           .proj-links {
             padding-top: 20px;
@@ -309,7 +310,7 @@ ul {
               color: $white-color;
               margin-right: 20px;
               padding: 10px;
-              font-size: 20px;
+              font-size: 16px;
               background: $orange-color;
 
               &:hover {
@@ -324,7 +325,6 @@ ul {
 }
 
 .contact-sect {
-  height: 35vh;
   background-color: $dark-color;
   display: flex;
   justify-content: center;
@@ -332,7 +332,7 @@ ul {
     margin-top: 40px;
     color: $orange-color;
     h2 {
-      font-size: 32px;
+      font-size: 26px;
       margin-bottom: 20px;
     }
     .list-contacts {
@@ -341,7 +341,7 @@ ul {
       justify-content: space-between;
 
       .contact-item {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
         color: $white-color;
         a {
@@ -350,7 +350,7 @@ ul {
         i {
           margin-right: 20px;
           color: $orange-color;
-          font-size: 24px;
+          font-size: 22px;
         }
       }
     }
